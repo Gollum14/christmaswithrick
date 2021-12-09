@@ -1,0 +1,45 @@
+html {
+  background-color: #B1DEF4;
+  overflow: hidden;
+}
+
+/* christmas tree */
+
+.christmastree,
+.snowman,
+.christmastreeornament,
+.snowflake {
+  height: 150px;
+  width: 150px;
+  display: block;
+  float: left;
+}
+
+.snowflake {
+  position: relative;
+}
+
+.top {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 19.2975px 33.424px 19.2975px;
+  border-color: transparent transparent #ffffff transparent;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25.576px;
+}
+
+.middle {
+  width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 0 24.1215px 41.779px 24.1215px;
+border-color: transparent transparent #ffffff transparent;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 41.221px;
+  margin-top: -33.424px;
+}
