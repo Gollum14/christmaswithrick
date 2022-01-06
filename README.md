@@ -1,2 +1,2 @@
-# christmaswithrick
+# christmasfunwithrick.tk
 Amogus
